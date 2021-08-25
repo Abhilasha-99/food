@@ -1,0 +1,92 @@
+.container{
+    position:fixed;
+
+}
+.container .fishes {
+    width: 115%;
+    position: fixed;
+    top: -11px;
+    left: -75px;
+    
+}
+.container .fish {
+    position: fixed;
+    top: -8px;
+    left: -8px;
+    width: 34%;
+    height: 99%;
+    opacity: 0.8;
+
+}
+    h2 {
+        position: fixed;
+        top: 10%;
+        left: 13%;
+        transform: translate( -40%, -40% );
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 371%;
+    }
+
+p {
+    position: fixed;
+    top: 34%;
+    left: 13%;
+    transform: translate( -40%, -40% );
+    text-align: center;
+    color: white;
+    font-size: 186%;
+    font-style: oblique;
+}
+p1 {
+    font-weight: initial;
+    position: fixed;
+    top: 57%;
+    left: 13%;
+    transform: translate( -40%, -40% );
+    text-align: center;
+    color: white;
+    font-size: 256%;
+    font-style: normal;
+}
+.container .btn {
+    border: none;
+    background-color: yellow;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    top: 67%;
+    left: 11%;
+}
+.container .abc{
+    width:100%;
+    height:100vh;
+   
+  }
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    line-height: 71px;
+}
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type:lower-greek;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:rgb(238, 241, 8);
+  }
+  nav ul li a{
+    text-decoration:seagreen;
+    color: #fff;
+    padding: 30px;
+    
+  }
