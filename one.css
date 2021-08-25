@@ -1,0 +1,38 @@
+.fishes {
+    width: 115%;
+    position: relative;
+    top: -11px;
+    left: -75px;
+}
+.fish {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 34%;
+    height: 99%;
+    opacity: 0.8;
+}
+.first {
+    color: white;
+    position: relative;
+    bottom: 891px;
+    left: 25px;
+    font-size: 564%;
+}
+.second {
+ color: white;
+    position: relative;
+    bottom: 889px;
+    left: 130px;
+    font-size: 564%;
+}
+h2 {
+    position: absolute;
+    top: 23%;
+    left: 16%;
+    transform: translate( -40%, -40% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 501%;
+}
